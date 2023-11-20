@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1700467102 source:d:\c_program\lessthanfive\main.cpp
+1700511479 source:d:\c_program\lessthanfive\main.cpp
 	<iostream>
+	<cstdlib>
 
