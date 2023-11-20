@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <time.h>
 
 using namespace std;
 
@@ -8,12 +9,11 @@ int main()
     srand((unsigned) time(NULL));
 
     int randomNum = rand() %10;
-    cout<<randomNum<< endl;
 
-    /*for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 5; i++)
     {
         int userNum;
-        cout << "Input a number that must be less than the random number and you have five attempts!" << endl;
+        cout << "Input a number that must be less than the random number which is less than or equal to 10 and you have five attempts!" << endl;
         cout << "Input a number" << endl;
         cin >> userNum;
 
@@ -27,6 +27,6 @@ int main()
         } else {
             return 0;
         }
-    }*/
+    }
     return 0;
 }
