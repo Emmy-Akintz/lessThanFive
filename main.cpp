@@ -5,12 +5,12 @@ using namespace std;
 
 int main()
 {
-    srand( (unsigned) time(NULL) );
+    srand((unsigned) time(NULL));
 
     int randomNum = rand() %10;
-    cout << randomNum << endl;
+    cout<<randomNum<< endl;
 
-    for (int i = 0; i < 5; i++)
+    /*for (int i = 0; i < 5; i++)
     {
         int userNum;
         cout << "Input a number that must be less than the random number and you have five attempts!" << endl;
@@ -27,6 +27,6 @@ int main()
         } else {
             return 0;
         }
-    }
+    }*/
     return 0;
 }
