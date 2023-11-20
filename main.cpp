@@ -8,12 +8,12 @@ int main()
 {
     srand((unsigned)time(NULL));
 
-    int randomNum = rand() % 10000;
+    int randomNum = rand() % 10;
 
-    for (int i = 0; i < 20; i++)
+    for (int i = 0; i < 5; i++)
     {
         int userNum;
-        cout << "Input a number that must be less than the random number which is less than or equal to 10000 and you have 20 attempts!" << endl;
+        cout << "Input a number that must be less than the random number which is less than or equal to 10 and you have 5 attempts!" << endl;
         cout << "Input a number" << endl;
         cin >> userNum;
 
