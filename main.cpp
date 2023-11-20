@@ -5,7 +5,9 @@ using namespace std;
 
 int main()
 {
-    int randomNum = rand() %11;
+    srand( (unsigned) time(NULL) );
+
+    int randomNum = rand() %10;
     cout << randomNum << endl;
 
     for (int i = 0; i < 5; i++)
