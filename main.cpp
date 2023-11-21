@@ -34,7 +34,6 @@ int main()
         {
             cout << "You lost!" << endl;
             cout << "The value is " << randomNum << endl;
-            return 0;
         }
     }
 
