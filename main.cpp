@@ -36,7 +36,5 @@ int main()
             cout << "The value is " << randomNum << endl;
         }
     }
-
-         
     return 0;
 }
